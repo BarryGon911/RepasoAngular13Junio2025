@@ -1,0 +1,134 @@
+[
+  {
+    "id": 1001,
+    "nombre": "Dra. Mariana Torres",
+    "especialidad": "Cardiología",
+    "edad": 35,
+    "antiguedad": 5,
+    "sueldo": 50000,
+    "ciudad": "Ciudad de México",
+    "telefono": "+52 55 1234 5678",
+    "foto": "https://randomuser.me/api/portraits/women/44.jpg"
+  },
+  {
+    "id": 1002,
+    "nombre": "Dr. Luis Ramírez",
+    "especialidad": "Neurología",
+    "edad": 42,
+    "antiguedad": 10,
+    "sueldo": 60000,
+    "ciudad": "Guadalajara",
+    "telefono": "+52 33 9876 5432",
+    "foto": "https://randomuser.me/api/portraits/men/55.jpg"
+  },
+  {
+    "id": 1003,
+    "nombre": "Dra. Isabel Jiménez",
+    "especialidad": "Pediatría",
+    "edad": 28,
+    "antiguedad": 3,
+    "sueldo": 45000,
+    "ciudad": "Monterrey",
+    "telefono": "+52 81 2345 6789",
+    "foto": "https://randomuser.me/api/portraits/women/65.jpg"
+  },
+  {
+    "id": 1004,
+    "nombre": "Dr. Fernando Rivas",
+    "especialidad": "Gastroenterología",
+    "edad": 45,
+    "antiguedad": 15,
+    "sueldo": 70000,
+    "ciudad": "Puebla",
+    "telefono": "+52 22 3456 7890",
+    "foto": "https://randomuser.me/api/portraits/men/64.jpg"
+  },
+  {
+    "id": 1005,
+    "nombre": "Dra. Laura Mendoza",
+    "especialidad": "Ginecología",
+    "edad": 30,
+    "antiguedad": 4,
+    "sueldo": 48000,
+    "ciudad": "Tijuana",
+    "telefono": "+52 66 1234 5678",
+    "foto": "https://randomuser.me/api/portraits/women/32.jpg"
+  },
+  {
+    "id": 1006,
+    "nombre": "Dr. Andrés López",
+    "especialidad": "Dermatología",
+    "edad": 38,
+    "antiguedad": 8,
+    "sueldo": 52000,
+    "ciudad": "Cancún",
+    "telefono": "+52 98 7654 3210",
+    "foto": "https://randomuser.me/api/portraits/men/75.jpg"
+  },
+  {
+    "id": 1007,
+    "nombre": "Dra. Paula Ortega",
+    "especialidad": "Oftalmología",
+    "edad": 33,
+    "antiguedad": 6,
+    "sueldo": 49000,
+    "ciudad": "Querétaro",
+    "telefono": "+52 44 5678 1234",
+    "foto": "https://randomuser.me/api/portraits/women/12.jpg"
+  },
+  {
+    "id": 1008,
+    "nombre": "Dr. Ricardo Salazar",
+    "especialidad": "Ortopedia",
+    "edad": 40,
+    "antiguedad": 12,
+    "sueldo": 55000,
+    "ciudad": "León",
+    "telefono": "+52 47 8901 2345",
+    "foto": "https://randomuser.me/api/portraits/men/28.jpg"
+  },
+  {
+    "id": 1009,
+    "nombre": "Dra. Andrea Núñez",
+    "especialidad": "Psiquiatría",
+    "edad": 29,
+    "antiguedad": 2,
+    "sueldo": 47000,
+    "ciudad": "Mérida",
+    "telefono": "+52 99 8765 4321",
+    "foto": "https://randomuser.me/api/portraits/women/50.jpg"
+  },
+  {
+    "id": 1010,
+    "nombre": "Dr. Miguel Herrera",
+    "especialidad": "Urología",
+    "edad": 37,
+    "antiguedad": 9,
+    "sueldo": 53000,
+    "ciudad": "San Luis Potosí",
+    "telefono": "+52 48 1234 5678",
+    "foto": "https://randomuser.me/api/portraits/men/11.jpg"
+  },
+  {
+    "id": 1011,
+    "nombre": "Dra. Renata Villalobos",
+    "especialidad": "Endocrinología",
+    "edad": 31,
+    "antiguedad": 7,
+    "sueldo": 51000,
+    "ciudad": "Hermosillo",
+    "telefono": "+52 66 9876 5432",
+    "foto": "https://randomuser.me/api/portraits/women/23.jpg"
+  },
+  {
+    "id": 1012,
+    "nombre": "Dr. Esteban Castillo",
+    "especialidad": "Medicina Interna",
+    "edad": 46,
+    "antiguedad": 20,
+    "sueldo": 75000,
+    "ciudad": "Veracruz",
+    "telefono": "+52 29 3456 7890",
+    "foto": "https://randomuser.me/api/portraits/men/39.jpg"
+  }
+]
