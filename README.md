@@ -1,2 +1,0 @@
-# Repaso-Angular
-Proyecto Doctores
