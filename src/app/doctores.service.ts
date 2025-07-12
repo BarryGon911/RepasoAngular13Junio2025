@@ -1,13 +1,15 @@
 import { Injectable } from '@angular/core';
 import plantilla from './data/plantilla.json';
 import { Doctor } from './models/doctor';
+
 @Injectable({
   providedIn: 'root',
 })
+
 export class DoctoresService {
-doctores: Doctor[] = plantilla;
-  constructor() {}
-  ngOnInit(): void {}
+  doctores: Doctor[] = plantilla;
+  constructor() { }
+  ngOnInit(): void { }
   getAll(): Doctor[] {
     const recuperarDatos: Doctor[] = JSON.parse(
       localStorage.getItem('doctores') ?? '[]'

@@ -18,12 +18,12 @@ export class ConsultaComponent {
   constructor(
     private route: ActivatedRoute,
     private servicio: DoctoresService
-   ) {}
+  ) { }
 
-   ngOnInit(){
+  ngOnInit() {
     this.route.paramMap.subscribe(params => {
       this.id = Number(params.get('id'));
       this.doctor = this.servicio.getById(this.id);
     });
-   }
+  }
 }

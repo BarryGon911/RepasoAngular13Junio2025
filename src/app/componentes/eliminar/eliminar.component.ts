@@ -10,32 +10,32 @@ import { DoctoresService } from '../../doctores.service';
 })
 export class EliminarComponent {
 
-  mensajeEliminado:string="";
-  timeoutId:any;
+  mensajeEliminado: string = "";
+  timeoutId: any;
 
-  doctores: Doctor [] = [];
+  doctores: Doctor[] = [];
 
-  constructor(private servicio: DoctoresService){}
+  constructor(private servicio: DoctoresService) { }
 
-  ngOnInit(): void{
+  ngOnInit(): void {
     this.cargarDoctores();
   }
 
   cargarDoctores(): void {
-    this.doctores=this.servicio.getAll();
+    this.doctores = this.servicio.getAll();
   }
 
-  elinimarDoctor(id:number){
+  elinimarDoctor(id: number) {
     this.servicio.delete(id);
     console.log(`Empleado con id ${id} eliminado`);
     this.cargarDoctores();
-    this.mensajeEliminado=`Empleado con id ${id} eliminado`;
-    
+    this.mensajeEliminado = `Empleado con id ${id} eliminado`;
+
     clearTimeout(this.timeoutId);
-    
-    this.timeoutId=setTimeout( () => {
-      this.mensajeEliminado=""
-    },3000);
+
+    this.timeoutId = setTimeout(() => {
+      this.mensajeEliminado = ""
+    }, 3000);
   }
 
 }

@@ -9,21 +9,21 @@ import { CommonModule } from '@angular/common';
   styleUrl: './listar-doctores.component.css'
 })
 export class ListarDoctoresComponent {
-  misDoctores!:Doctor[];
+  misDoctores!: Doctor[];
   constructor(private doctoresService: DoctoresService) {
 
-}
-ngOnInit(): void{
-  this.misDoctores = this.doctoresService.getAll();
-  console.log(this.misDoctores);
-  let doc;
-  doc=this.doctoresService.getById(1);
-  console.log(doc);
-  doc=this.doctoresService.getById(2);
-  console.log(doc);
-  this.doctoresService.delete(1);
-  this.doctoresService.delete(2);
-}
+  }
+  ngOnInit(): void {
+    this.misDoctores = this.doctoresService.getAll();
+    console.log(this.misDoctores);
+    let doc;
+    doc = this.doctoresService.getById(1);
+    console.log(doc);
+    doc = this.doctoresService.getById(2);
+    console.log(doc);
+    this.doctoresService.delete(1);
+    this.doctoresService.delete(2);
+  }
 }
 
 

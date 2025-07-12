@@ -8,11 +8,11 @@ import { Router, RouterLink } from '@angular/router';
   styleUrl: './menu.component.css'
 })
 export class MenuComponent {
-  constructor(private router: Router) {}
+  constructor(private router: Router) { }
 
-  consultar(id: string){
-    if (id){
-    this.router.navigate(['/consulta', id]);
+  consultar(id: string) {
+    if (id) {
+      this.router.navigate(['/consulta', id]);
     }
   }
 }
